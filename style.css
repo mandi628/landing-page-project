@@ -143,3 +143,43 @@ h1 {
 .text {
     text-align: center;
 }
+
+.footer {
+    background-color: #1F2937;
+    color:#e5e7eb;
+    text-align: center;
+    font-size: 16px;
+    padding: 16px;
+}
+
+.call-card {
+    display:flex;
+    background-color: #3882f6;
+    border-radius: 15px;
+    margin: 0 100px;
+    padding: 50px 75px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call {
+    padding: 25px 0;
+}
+
+.call-words {
+    color:#f9faf8;
+}
+
+.call-head {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.call-text {
+    font-size: 18px;
+}
+
+.call-button {
+    background-color: #3882f6;
+    border: 3px solid #f9faf8;
+}
