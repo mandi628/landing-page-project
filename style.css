@@ -1,13 +1,13 @@
 * {
-    border: 1px solid red;
-    font-family: Roboto, sans-serif;
+    border: 0px solid red;
+    font-family: Garamond, serif;
 }
 
-@font-face {
+/* @font-face {
     font-family: "Roboto";
     src:
         local("Roboto/Roboto-Regular.ttf");
-}
+} */
 
 body {
     /* font-family: Roboto, sans-serif; */
@@ -113,7 +113,7 @@ img.pic {
 
 .information {
     /* display: flex; */
-    padding: 0 200px;
+    padding: 50px 200px 100px;
 }
 
 h1 {
@@ -150,6 +150,7 @@ h1 {
     text-align: center;
     font-size: 16px;
     padding: 16px;
+    /* font-stretch:semi-expanded; */
 }
 
 .call-card {
@@ -182,4 +183,26 @@ h1 {
 .call-button {
     background-color: #3882f6;
     border: 3px solid #f9faf8;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 250px;
+}
+
+.quote-text {
+    color:#1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    padding: 10px;
+}
+
+.quote-sig {
+    color:#1F2937;
+    font-size:30px;
+    font-weight: bold;
+    text-align: right;
 }
